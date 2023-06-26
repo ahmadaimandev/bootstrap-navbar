@@ -1,0 +1,32 @@
+$color_1: #007bff;
+$color_2: #333;
+$background-color_1: #f8f9fa;
+$background-color_2: #e9ecef;
+
+/* Custom CSS for the navbar */
+.navbar {
+	background-color: $background-color_1;
+}
+.navbar-brand {
+	color: $color_1;
+	font-weight: bold;
+}
+.navbar-nav {
+	.nav-link {
+		color: $color_2;
+		&:hover {
+			color: $color_1;
+		}
+	}
+}
+.dropdown-menu {
+	background-color: $background-color_1;
+	border: none;
+}
+.dropdown-item {
+	color: $color_2;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_1;
+	}
+}

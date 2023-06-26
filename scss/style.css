@@ -1,31 +1,29 @@
 /* Custom CSS for the navbar */
 .navbar {
-    background-color: #f8f9fa; /* Set the background color */
-  }
+  background-color: #f8f9fa;
+}
 
-  .navbar-brand {
-    color: #007bff; /* Set the brand color */
-    font-weight: bold;
-  }
+.navbar-brand {
+  color: #007bff;
+  font-weight: bold;
+}
 
-  .navbar-nav .nav-link {
-    color: #333; /* Set the link color */
-  }
+.navbar-nav .nav-link {
+  color: #333;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
 
-  .navbar-nav .nav-link:hover {
-    color: #007bff; /* Set the link hover color */
-  }
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+}
 
-  .dropdown-menu {
-    background-color: #f8f9fa; /* Set the dropdown menu background color */
-    border: none; /* Remove the default border */
-  }
-
-  .dropdown-item {
-    color: #333; /* Set the dropdown item color */
-  }
-
-  .dropdown-item:hover {
-    background-color: #e9ecef; /* Set the dropdown item hover background color */
-    color: #007bff; /* Set the dropdown item hover color */
-  }
+.dropdown-item {
+  color: #333;
+}
+.dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #007bff;
+}/*# sourceMappingURL=style.css.map */
